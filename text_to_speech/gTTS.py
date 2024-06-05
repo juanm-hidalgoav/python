@@ -1,7 +1,31 @@
 from gtts import gTTS
 
 mytext = """
-English for Beginners is a 6-week elementary ESL course, corresponding to level A2 on the CEFR scale. English for Beginners is an integrated skills program. The development of language skills and grammatical and lexical resources will enable students to engage in daily conversations about a variety  of topics . Their listening and reading comprehension and spoken  and written  communication of main  ideas and details will also  be enhanced . Students will have the opportunity to expand and improve all language skills in academic contexts that relate to their interests. Assessments  include module quizzes  and task completion. Students who complete this mastery -based course will receive a certificate of completion.
+Hi there! How's your day going?
+
+Hi! It's going well, thanks. How about you?
+
+Not too bad, just busy with work. Did you do anything fun over the weekend?
+
+Yes, actually! I went hiking in the mountains. The weather was perfect for it. How about you?
+
+That sounds great! I just relaxed at home and watched a couple of movies. Sometimes a quiet weekend is just what you need.
+
+Absolutely, a little downtime is always nice. Have you seen any good movies lately?
+
+I watched a new action movie that came out recently. It was pretty entertaining. Do you have any favorite genres?
+
+I enjoy a bit of everything, but I'm particularly fond of comedies. They always put me in a good mood.
+
+Same here! Have you heard about the new comedy show that just started?
+
+Yes, I've heard some good things about it. Maybe I'll check it out this weekend.
+
+You should! Well, I better get back to work, but it was nice chatting with you.
+
+You too! Have a great rest of your day.
+
+Thanks, you too!
 """
 
 tts = gTTS(text=mytext, lang='en', tld='ca')
