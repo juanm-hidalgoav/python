@@ -1,3 +1,4 @@
+# gTTS requires an internet connection
 from gtts import gTTS
 
 mytext = """
